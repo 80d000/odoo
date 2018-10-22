@@ -1,3 +1,6 @@
+#######
+##𓀨####
+#######
 #Start simple
 FROM python
 RUN apt -qq -y update ; apt-get -qq -y install libldap2-dev libsasl2-dev ; apt-get clean
